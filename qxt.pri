@@ -32,7 +32,7 @@ macx: {
         SOURCES += $$PWD/gui/qxtwindowsystem_mac.cpp \
                 $$PWD/gui/qxtglobalshortcut_mac.cpp
 
-        HEADERS  += $$PWD/qxtwindowsystem_mac.h
+        HEADERS  += $$PWD/gui/qxtwindowsystem_mac.h
 
 	QMAKE_LFLAGS += -framework Carbon -framework CoreFoundation
 }
